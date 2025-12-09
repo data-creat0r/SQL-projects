@@ -75,7 +75,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 These analyses are implemented with **SQL queries** against the **Gold layer** and can be used as the foundation for dashboards in any BI tool.
 
 For detailed functional and technical requirements, see:  
-`docs/requirements.md`
+[docs/requirements.md](https://github.com/data-creat0r/SQL-projects/blob/main/Data%20Warehouse%20Project/docs/requirements.md)
 
 ---
 
