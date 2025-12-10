@@ -3,12 +3,17 @@
 Stored Procedure: bronze.load_bronze (Source CSV -> Bronze Layer)
 ===============================================================================
 Description:
-    This stored procedure populates the tables in the 'bronze' schema using
-    external CSV files as the source. It executes the following steps for
-    each table:
-      - Clears existing data from the target bronze table.
-      - Loads fresh data from the corresponding CSV file by using the COPY
-        command in PostgreSQL.
+    This stored procedure loads data into tables in the 'bronze' schema from
+    external CSV files. For each source table it:
+      - Truncates the target bronze table.
+      - Reloads the data from the corresponding CSV file using the PostgreSQL
+        COPY command.
+
+File paths:
+    The COPY statements use a placeholder base path like:
+        'C:\YOUR_LOCAL_PATH\sql-data-warehouse-project\datasets\...'
+    Before running this procedure, replace `YOUR_LOCAL_PATH` with the actual
+    location of the project on your machine.
 
 Parameters:
     None.
