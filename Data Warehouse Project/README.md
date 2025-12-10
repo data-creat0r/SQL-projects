@@ -84,10 +84,12 @@ Data Warehouse Project/
 ├── datasets/                           # Source CSV files (ERP & CRM datasets)
 │
 ├── docs/                               # Documentation & design assets
-│   ├── data_architecture.drawio        # Overall data architecture (Bronze/Silver/Gold)
+│   ├── Data_architecture.drawio        # Overall data architecture (Bronze/Silver/Gold)
+│   ├── Data_integration.drawio         # How tables are related
+│   ├── Data_lineage.drawio             # Draw.io file for the data flow diagram
+│   ├── Data_model.drawio               # Draw.io file for data models (star schema)
+│   ├── Layers_design.drawio            # Showing layers' purpose, transformations, and target users
 │   ├── data_catalog.md                 # Data dictionary: tables, fields, and metadata
-│   ├── data_flow.drawio                # End-to-end data flow diagram
-│   ├── data_models.drawio              # Logical/physical data models (star schema)
 │   ├── naming-conventions.md           # Standards for naming tables, columns, and files
 │
 ├── scripts/                            # SQL scripts by layer
@@ -98,8 +100,6 @@ Data Warehouse Project/
 ├── tests/                              # Data quality checks & validation scripts
 │
 ├── README.md                           # Project overview (this file)
-├── .gitignore                          # Git ignore rules
-└── requirements.txt                    # Dependencies/tools used in the project (if any)
 ```
 
 ## Stay Connected
