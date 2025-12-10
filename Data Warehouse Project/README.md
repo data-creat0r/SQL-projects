@@ -8,7 +8,7 @@ This project showcases a comprehensive data warehousing solution: from ingesting
 
 The project follows a **Medallion architecture** with three logical layers: **Bronze**, **Silver**, and **Gold**.
 
-<img width="1229" height="612" alt="Data_Architecture drawio (1)" src="https://github.com/user-attachments/assets/daa8cb78-4a3b-400d-a03c-21d9be2a8da8" />
+<img width="1228" height="674" alt="Data_architecture drawio (1)" src="https://github.com/user-attachments/assets/aba01818-edb0-484b-ba92-c43757066851" />
 
 - **Bronze Layer**  
   - Landing zone for **raw data** coming directly from the source systems.  
@@ -73,9 +73,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales trends**
 
 These analyses are implemented with **SQL queries** against the **Gold layer** and can be used as the foundation for dashboards in any BI tool.
-
-For detailed functional and technical requirements, see:  
-[docs/requirements.md](https://github.com/data-creat0r/SQL-projects/blob/main/Data%20Warehouse%20Project/docs/requirements.md)
 
 ---
 
