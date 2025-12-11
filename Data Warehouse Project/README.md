@@ -12,7 +12,7 @@ The project follows a **Medallion architecture** with three logical layers: **Br
 
 - **Bronze Layer**  
   - Landing zone for **raw data** coming directly from the source systems.  
-  - Data is loaded from CSV files into a **SQL Server** database with no transformation.
+  - Data is loaded from CSV files into a **PostgreSQL** database with no transformation.
 
 - **Silver Layer**  
   - Focuses on **data cleaning, standardization, and basic transformations**.  
