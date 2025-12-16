@@ -8,7 +8,7 @@ This project showcases a comprehensive data warehousing solution: from ingesting
 
 The project follows a **Medallion architecture** with three logical layers: **Bronze**, **Silver**, and **Gold**.
 
-<img width="1228" height="674" alt="Data_architecture drawio (1)" src="https://github.com/user-attachments/assets/aba01818-edb0-484b-ba92-c43757066851" />
+<img width="1490" height="758" alt="sada" src="https://github.com/user-attachments/assets/5ddba0db-f1ec-47f4-b3d9-2e0a4305f106" />
 
 - **Bronze Layer**  
   - Landing zone for **raw data** coming directly from the source systems.  
